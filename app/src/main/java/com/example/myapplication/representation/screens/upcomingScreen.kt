@@ -18,7 +18,7 @@ fun UpcomingScreen(upcomingMovies: List<Result>){
         .background(color = Color.White)
         .padding(10.dp)) {
 
-        item{
+        items(upcomingMovies.size){
             ShowRowUpcoming("upcoming",upcomingMovies)
         }
     }

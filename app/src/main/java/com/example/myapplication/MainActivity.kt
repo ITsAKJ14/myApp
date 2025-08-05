@@ -51,7 +51,10 @@ class MainActivity : ComponentActivity() {
 
                 } catch (e: Exception) {
                     Log.e("DEBUG", "Network call failed: ${e.message}")
+                }finally {
+                    isLoading = false
                 }
+
             }
 
             MyApplicationTheme {
@@ -70,7 +73,7 @@ class MainActivity : ComponentActivity() {
                             CircularProgressIndicator()
                         }
                     } else {
-                        MainScreen(resultPopular, resultUpcoming)
+                        MainScreen(resultUpcoming, resultPopular)
                     }
                 }
             }

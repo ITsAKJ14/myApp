@@ -18,7 +18,7 @@ fun PopularScreen(popularMovies: List<Result>){
         .background(color = Color.White)
         .padding(10.dp)) {
 
-        item {
+        items(popularMovies.size) {
             ShowRow(title = "Popular", movies = popularMovies)
         }
     }
