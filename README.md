@@ -35,10 +35,11 @@ It keeps things simple by avoiding advanced tools like **ViewModel**, **Hilt**, 
 ## 📸 Screenshots
 
 ### 🔥 Popular Movies Screen
-![Popular Screen](screenshots/popular_screen.png)
+<img src="screenshots/popular_screen.png" width="300"/>
+
 
 ### ⏳ Upcoming Movies Screen
-![Upcoming Screen](screenshots/upcoming_screen.png)
+<img src="screenshots/upcoming_screen.png" width="300"/>
 
 ---
 
@@ -46,7 +47,7 @@ It keeps things simple by avoiding advanced tools like **ViewModel**, **Hilt**, 
 
 - [TMDB API](https://developers.themoviedb.org/3)
 
-> You will need to generate a free API key from TMDB and insert it into the code to fetch data.
+> You will need to generate a free API key from TMDB and insert it into the code to fetch data **The API_KEY you will get with the project is invalid, so use yours.
 
 ---
 
